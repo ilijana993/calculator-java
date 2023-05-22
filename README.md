@@ -11,7 +11,12 @@ Calculator – 70 - Lokalne promenljive ne treba deklarisati, a zatim ih odmah v
 Calculator – 73 - Imena metoda treba da budu u skladu sa konvencijom o imenovanju ( umesto „Calculate“ treba da piše „calculate“). Code smell=minimalan
 Calculator – 182 – suvišna naredba („return“)
 
-Start – 1 – neimenovan paket, code smell=milimalan
+Start – 1 – neimenovan paket, code smell=minimalan
 Start – 6 - Imena metoda i lokalnih promenljivih treba da budu u skladu sa konvencijom o imenovanju ( umesto „Expression“ treba da piše „expression“). Code smell=minimalan
 Start – 8 - Standardni izlazi ne bi trebalo da se koriste direktno za evidentiranje bilo čega. Umesto „System.out.println“ treba da stoji „logger.log“. Code smell=maksimalno značajan
 Start – 19 - Standardni izlazi ne bi trebalo da se koriste direktno za evidentiranje bilo čega. Umesto „System.out.println“ treba da stoji „logger.log“. Code smell=maksimalno značajan
+
+ cognitive complexity za metodu evaluateExpression je 4 (dobijeno mojim subjektivnim preprojavanjem petlji, blokova i ugnežđivanja)
+ cognitive complexity za metodu Calculate je 12 (dobijeno mojim subjektivnim preprojavanjem petlji, blokova i ugnežđivanja)
+LOC za sve fajlove zbirno je 153.
+ciklomatska složenost metoda evaluateExpression je 12 i za Calculate je isto 12. (dobijeno pomoću Codalyze)
